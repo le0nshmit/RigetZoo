@@ -11,7 +11,10 @@ A RigetZoo Occupational Specialism project
 
 ## TechStack
 
-    Python
+    Python ( FLASK ) 
+    Sqlite
+    JS 
+    
     
 
 
