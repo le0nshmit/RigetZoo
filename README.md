@@ -4,21 +4,21 @@ A RigetZoo Occupational Specialism project
 
 ### Goals
 
-- 
-- 
-- 
+- Improve UX and UI
+- Improve the interactivity
+-      
 - 
 
-## TechStack
+## - TechStack -
 
 ### Backend
-Python ( FLASK ) 
-SQL
+- Python ( FLASK ) 
+- SQL
 
 ### Frontend
-HTML
-CSS
-JS
+- HTML
+- CSS
+- JS
 
     
     
