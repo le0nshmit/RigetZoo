@@ -11,14 +11,14 @@ A RigetZoo Occupational Specialism project
 
 ## TechStack
 
-    ## Backend
-    Python ( FLASK ) 
-    SQL
+### Backend
+Python ( FLASK ) 
+SQL
 
-    ## Frontend
-    HTML
-    CSS
-    JS
+### Frontend
+HTML
+CSS
+JS
 
     
     
