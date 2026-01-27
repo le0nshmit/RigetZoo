@@ -12,6 +12,10 @@ A RigetZoo Occupational Specialism project
 ## TechStack
 
     Python
+    SQL
+    JS
+    CSS
+    HTML
     
 
 
