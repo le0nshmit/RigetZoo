@@ -8,3 +8,9 @@ __pycache__/
 
 # Distribution
 *.egg-info
+
+# Logs
+logs/
+
+# Notes
+notes/
