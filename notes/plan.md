@@ -18,12 +18,11 @@ A modular approach to improving the UI, UX and interactivity of the RigetZoo web
 RigetZoo/
 ├── .venv/
 ├── app/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── templates/
+│   ├── auth/
+│   ├── general/
+│   ├── blueprints/
 │   └── static/
-├── .gitignore
+├── .gitignore 
 ├── notes/
 │   └── plan.md
 ├── logs/
@@ -34,10 +33,10 @@ RigetZoo/
 
 
 
-Models/ → database models
+auth/ → anything related to authentication
 
-Routes/ → blueprints
+general/ → standard pages (home, about)
 
-Services/ → business logic
+blueprints/ → contain html templates
 
-Templates/ → jinja templates
+static/ → jinja templates

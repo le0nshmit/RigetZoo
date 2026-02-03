@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
+</head>
+    <!-- Hero Section -->
+    <section id="hero-section">
+        
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section">
+        <div id="title-container">
+            <h1 id="title"> About </h1>
+        </div>
+        
+        <!-- Three Cards Section -->
+        <section id="section1">
+            <div id="section1-wrapper">
+
+                <!-- First Card -->
+                <div id="top-small-card" class="small-card">
+                    <section class="small-card-text-section">
+                        <h2 class="small-card-header">
+                            Where Can You Find Us?
+                        </h2>
+                        <p class="small-card-text">
+                            current address
+                        </p>
+                    </section>
+
+                    <section class="small-card-image-section" id="top-small-card-image"></section>
+                </div>
+
+                
+                <!-- Second Card -->
+                <div id="big-card">
+                    <div id="big-card-image-container">
+                        
+                    </div>
+                </div>
+
+
+                <!-- Third Card -->
+                <div id="bottom-small-card" class="small-card">
+                    <section class="small-card-text-section">
+                        <h2 class="small-card-header">
+                            How Can You Contact Us?
+                        </h2>
+                        <p class="small-card-text">
+                            chosen contact information
+                        </p>
+                    </section>
+
+                    <section class="small-card-image-section" id="bottom-small-card-image"></section>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2">
+            <div id="section2-container">  
+                <h1 id="review-header">Reviews</h1>
+                <div id="cards-container">
+                    <div class="card">
+                        
+                    </div>
+
+                    <div class="card">
+                        
+                    </div>
+
+                    <div class="card">
+                        
+                    </div>
+
+                    <div class="card">             
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
+
+{% endblock %}

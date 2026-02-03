@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+}
+
+
+#header-container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    height: 135px; 
+    align-items: end;
+    margin: 0;
+    justify-content: center;
+}
+
+
+#header{
+    display: flex;
+    background: #414833;
+    border-radius: 25px;
+    width: 1800px;
+    height: 100px;
+    outline: 3px;
+}
+
+
+#logo-section{
+    display: flex;
+    height: 100px;
+    width: 250px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    justify-content: start;
+    align-items: center;
+    padding-left: 25px;
+}
+
+
+#logo{
+    width: 115px;
+}
+
+#logo:hover{
+    background-color: lightgray;
+}
+
+
+#links-section{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#link-list{
+    display: flex;
+    height: 100%;
+    margin: 0;
+}
+
+
+.link-container{
+    display: flex;
+    list-style-type: none;
+    width: 200px;
+    height: 100%;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.link{
+    display: flex;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.link:hover{
+    transform: scale(.95);
+    color: lightgray;
+    transition: ease-in .15;
+}
+
+.link:active{
+    color: #777776;
+    transform: scale(0.95);
+    transition: ease-in .15;
+}
+
+
+#auth-section{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+.auth-button{
+    width: 160px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #93663975;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#access-button{
+    display: flex;
+    width: 50px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #b6ad90;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#access-button:hover{
+    transform: scale(.95);
+    transition: ease-in .15;
+}
+
+.button-trans:hover{
+    transform: scale(.95);
+    transition: ease-in .15;
+}
+
+.button-trans:active{
+    background-color: #835b326c;
+    transition: ease-in .15;
+}
+
+#acc-img{
+    width: 45px;
+}
+

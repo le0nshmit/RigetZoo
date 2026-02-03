@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/header.css') }}">
+</head>
+<body>
+    <div id="header-container">
+        <header id="header">
+            <!-- Logo Section -->
+            <section id="logo-section">
+                <img id="logo" src="{{url_for('static', filename='images/logos/light-logo.png')}}" alt="Site logo">
+            </section>
+
+            <!-- Links Section -->
+            <section id="links-section">
+                <ul id="link-list">
+                    <li class="link-container"><a class='link' href="">About Us</a></li>
+                    <li class="link-container"><a class='link' href="">Booking</a></li>
+                    <li class="link-container"><a class='link' href="">Games</a></li>
+                    <li class="link-container"><a class='link' href="">Education</a></li>
+                </ul>
+            </section>
+
+            <!-- Auth Section -->
+            <section id="auth-section">
+                <button class="auth-button button-trans">
+                    Sign In
+                </button>
+
+                <button class="auth-button button-trans">
+                    Register
+                </button>
+
+                <button class="button-trans" id="access-button">
+                    <img id="acc-img" src="{{ url_for('static', filename='images/logo/accessibility.png') }}" alt="">
+                </button>
+
+            </section>
+        </header>
+    </div>
+</body>
+</html>
