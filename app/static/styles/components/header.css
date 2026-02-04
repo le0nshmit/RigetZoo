@@ -38,10 +38,11 @@ body{
 
 #logo{
     width: 115px;
+    transition: filter 0.15s ease, transform 0.15s ease;
 }
 
 #logo:hover{
-    background-color: lightgray;
+    filter: brightness(0.75);
 }
 
 

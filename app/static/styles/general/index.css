@@ -4,7 +4,7 @@ body{
 }
 
 #hero-section{
-    background-image: url(../images/backgrounds/hero-bg.jpg);
+    background-image: url(../../images/backgrounds/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -98,12 +98,12 @@ body{
 
 
 #top-small-card-image{
-    background-image: url(../images/binocular.png);
+    background-image: url(../../images/binocular.png);
 }
 
 
 #bottom-small-card-image{
-    background-image: url(../images/on-the-phone.png);
+    background-image: url(../../images/on-the-phone.png);
 }
 
 
@@ -119,6 +119,7 @@ body{
 }
 
 #big-card{
+    display: flex;
     width: 900px;
     height: 250px;
     outline: solid 2px;
@@ -178,7 +179,16 @@ body{
     height: 100%;
     width: 50%;
 
-    background-image: url(../images/backgrounds/lions.jpg);
+    background-image: url(../../images/backgrounds/lions.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    overflow-x: hidden;
+}
+
+#big-card-text-section{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
