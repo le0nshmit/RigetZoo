@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #656D4A;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100svh;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#booking-container{
+    display: flex;
+    gap: 2.5%;
+    width:  80%;
+    height: 80svh;
+
+    display: flex;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+
+#hotel-image{
+    background-image: url(../../images/hotel.png);
+}
+
+#zoo-image{
+    background-image: url(../../images/backgrounds/sunset.jpg);
+    background-size: cover;
+}
+
+.booking-section{
+    width: 50%;
+    height: 100%;
+    border: solid #535649 5px;
+    background-color: rgba(212, 216, 198, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-bottom: none;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.booking-text-container{
+    width: 100%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: space-evenly;
+    
+    text-shadow: 8px 8px 8px #2c2c2c83;
+}
+
+.booking-header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.booking-button{
+    padding-top: .75%;
+    padding-bottom: .75%;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #B6AD90;
+    border: none;
+    box-shadow: 10px 10px 12px #2c2c2c83;
+
+    border-radius: 10px;
+}
+
+.booking-button:hover{
+    transform: scale(1.05);
+    box-shadow: 12px 12px 14px #2c2c2c54;
+}
+
+.image-container{
+    width: 95%;
+    height: 0;
+
+    display: flex;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    padding-top: 64.9%; /* Calculation for image to bottom -> 
+                         (img-height / img-width * container-width)
+                             468     /   685     *     95        */
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2%;
+
+    outline: solid #535649 5px;
+    border-radius: 15px;
+}
+
+
