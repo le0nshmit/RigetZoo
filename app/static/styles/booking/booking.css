@@ -105,7 +105,7 @@ body{
     margin-left: auto;
     margin-bottom: 2%;
 
-    outline: solid #535649 5px;
+    border: solid #535649 5px;
     border-radius: 15px;
 }
 

@@ -14,8 +14,10 @@ body{
 
 
 #about-section{
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100svh;
     background-color: #656D4A;
     margin: 0;
 }
@@ -45,150 +47,50 @@ body{
     max-width: 55px;
 }
 
-#section1{
-    margin-top: 25px;
-}
+/* --- About Cards Section--- */
 
-#section1-wrapper{
+#cards-section{
     display: flex;
     flex-direction: column;
-    max-width: 1430px;
-    height: 630px;
-    margin-left: 85px;
+    align-items: center;
+    flex-grow: 1;
 }
 
-.small-card{
-    width: 675px;
-    height: 175px;
-    background-color: #8D9471;
-    border-radius: 15px;
-    outline: #626750 solid;
-    outline-width: 5px;
+#frame{
     display: flex;
-}
-
-
-#top-small-card{
-    margin-bottom: 10px;
-}
-
-
-#bottom-small-card{
-    margin-top: 10px;
-}
-
-
-.small-card-text-section{
-    display: flex;
-    width: 425px;
-    height: 175px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
 
+    position: relative;
 
-.small-card-image-section{
-    width: 240px;
-    height: 175px;
+    background-image: url(../../images/frames/frame1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-right: 50px;
+    background-size: 1950px 1100px;
+
+    height: 110%;
+    width: 100%;
+
 }
 
-
-#top-small-card-image{
-    background-image: url(../../images/binocular.png);
-}
-
-
-#bottom-small-card-image{
-    background-image: url(../../images/on-the-phone.png);
-}
-
-
-.small-card-header{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.small-card-text{
-    font-style: italic;
-    font-weight: bold;
-}
-
-#big-card{
-    display: flex;
-    width: 900px;
-    height: 250px;
-    outline: solid 2px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: auto;
-    background-color: #A4AC86;
-    border-radius: 15px;
-    outline: #5D6249 solid;
-    outline-width: 5px;
-}
-
-#section2{
-    display: flex;
-    flex: 1 1 100%;
-    height: 330px; 
-    align-items: center;
-}
-
-#section2-container{
+#cards{
+    position: absolute;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
+    justify-content: space-evenly;
+    margin-top: 5%;
 
-#review-header{
-    margin: 0;
-    margin-left: 90px;
-    margin-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 35px;
-}
+    height: 80%;
+    width: 80%;
 
-#cards-container{
-    display: flex;
-    width: 1750px;
-    height: 75%;
-    padding-top: 5px;
-    margin-left: 75px;
-    margin-top: 20px;
 }
 
 .card{
-    width: 390px;
-    height: 200px;
-    background-color: #A4AC86;
+    width: 15%;
+    height: 15%;
+
+    background-color: #A68A64;
     border-radius: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
+    border: #50573b solid 2px;
 
-
-#big-card-image-container{
-    height: 100%;
-    width: 50%;
-
-    background-image: url(../../images/backgrounds/lions.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow-x: hidden;
-}
-
-#big-card-text-section{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: 2%;
 }

@@ -7,7 +7,7 @@ def create_app():
     from .booking import booking_bp
 
     app.register_blueprint(general_bp)
-    app.register_blueprint(booking_bp)
+    app.register_blueprint(booking_bp, url_prefix='/booking')
 
 
     return app
